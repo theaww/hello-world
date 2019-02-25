@@ -1,0 +1,12 @@
+import turtle
+
+star = turtle.Turtle()
+star.color("blue","blue")
+
+star.begin_fill()
+for _ in range(5):
+    star.forward(100)
+    star.right(144)
+star.end_fill()
+
+turtle.done()
